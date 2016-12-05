@@ -1,0 +1,8 @@
+'Find 
+
+find / -name 'Something*'
+
+Tmux
+
+Send keys
+ctlB :setw synchronise-keys on

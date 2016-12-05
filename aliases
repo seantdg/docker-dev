@@ -1,0 +1,4 @@
+#Aliases
+alias sd-cheat='vim /tmp/cheatsheet'
+alias sd-tmux='tmux new -s sean'
+alias sd-tmuxr='tmux a -t sean'

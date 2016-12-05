@@ -1,0 +1,2 @@
+nnoremap /lookup :-1read $HOME/.vim/snippets/lookupcache.snippet<CR>
+

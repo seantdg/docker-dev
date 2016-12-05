@@ -1,0 +1,14 @@
+<AccessControl name="ACL">
+  <IPRules noRuleMatchAction = "DENY">
+    <MatchRule action = "DENY">
+      <SourceAddress mask="24">10.10.0.0</SourceAddress>
+      <SourceAddress mask="24">10.20.0.0</SourceAddress>
+      <SourceAddress mask="24">10.30.0.0</SourceAddress>
+    </MatchRule>
+    <MatchRule action = "ALLOW">
+      <SourceAddress mask="16">10.10.0.0</SourceAddress>
+      <SourceAddress mask="16">10.20.0.0</SourceAddress>
+      <SourceAddress mask="16">10.30.0.0</SourceAddress>
+    </MatchRule>
+  </IPRules>
+</AccessControl>
