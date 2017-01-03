@@ -1,0 +1,5 @@
+Install CentOS 7
+root:pass
+Set Network on installation
+Change Virtual Machine network to bridge
+
